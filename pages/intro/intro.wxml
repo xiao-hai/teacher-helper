@@ -1,0 +1,17 @@
+<view>
+    <view class="zan-panel">
+        <view class="zan-cell">
+            <view class="zan-cell__bd">
+            <text>观看洋葱数学样例视频\n</text>
+            <text>第一步：学生和教师可以获得优质学习内容</text>
+            </view>
+        </view>
+        <view class="zan-cell">
+            <view class="zan-cell__bd">
+            <text>查看样例数据报告\n</text>
+            <text>第二步：建班级带学生用，查看这样的数据报告</text>
+            </view>
+        </view>
+    </view>
+    <button class="zan-btn zan-btn--primary" bindtap="">开始使用</button>
+</view>

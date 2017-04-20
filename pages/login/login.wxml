@@ -1,0 +1,4 @@
+<view>
+    <button class="zan-btn zan-btn--primary" bindtap="bindIntroTap">我已有洋葱教师账号</button>
+    <button class="zan-btn zan-btn--primary" bindtap="bindIntroTap">用微信注册洋葱教师账号</button>
+</view>
