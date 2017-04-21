@@ -3,6 +3,8 @@
     "pages/index/index",
     "pages/intro/intro",
     "pages/statics/statics",
+    "pages/statics_self/statics_self",
+    "pages/statics_intro/statics_intro",
     "pages/logs/logs",
     "pages/login/login",
     "pages/bind/bind",

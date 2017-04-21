@@ -1,0 +1,12 @@
+<!--pages/statics/statics.wxml-->
+<view>
+<view class="paddingBottom">
+  <image style="width:100%;background-color: #fff;"  mode="widthFix" src="../../images/data.png"></image>
+
+</view>
+      <view class="zan-btns">
+    <button class="zan-btn zan-btn--primary" bindtap="bindBackBtnTap">返回</button>
+    </view>
+    
+</view>
+

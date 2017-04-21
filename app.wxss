@@ -126,7 +126,7 @@ page {
 }
 .zan-card__detail-row {
   overflow: hidden;
-  line-height: 30px;
+ /* line-height: 30px;*/
   min-height: 30px;
   margin:20px 0 3px 0;
 }
@@ -139,10 +139,11 @@ page {
   margin-right:0px;
   line-height:25px;
   color:#1E90FF;
+  max-height:50px;
 }
  
 .zan-card_content {
-  color:#ccc;
+  color:#fff;
 }
 
 .zan-panel-title {
@@ -176,13 +177,13 @@ page {
 }
 
 .main-content {
-  margin:0px 15px 15px 15px;
+  margin:0px 30px 15px 30px;
   padding-top: 40px;
   color:#fff;
 }
 
 .step-content {
-  margin:10px 30px;
+  margin:10px 45px;
   padding-top: 0px;
   color:#fff;
   font-size:0.8em;
@@ -219,4 +220,14 @@ page {
   background-color: #1E90FF;
   padding-bottom:10px;
   margin-bottom: 20px;
+}
+
+.zan-card__side {
+  text-align: left;
+  width:50%;
+  float:left;
+}
+
+.zan-panel {
+  margin-top:0;
 }

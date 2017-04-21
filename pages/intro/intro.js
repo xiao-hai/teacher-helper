@@ -13,7 +13,7 @@ Page({
 
   bindStaticsTap: function() {
     wx.navigateTo({
-      url: '../statics/statics'
+      url: '../statics_intro/statics_intro'
     })
   },
 

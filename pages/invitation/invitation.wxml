@@ -26,7 +26,7 @@
         </view>
     </view>
 
-    <view class="zan-btns" style="margin:30px auto;">
+    <view class="zan-btns" style="margin-top:30px;margin-bottom:30px;">
     <button class="zan-btn zan-btn--primary" bindtap="bindIntroTap">分享给教师朋友</button>
     </view>
 </view>

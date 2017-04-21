@@ -22,6 +22,7 @@ Page({
     //     url: '../index/index'
     //   })
     // })
+    console.log('aaaa');
     wx.getUserInfo({
       success: function(res) {
         console.log('商店水电费', res);
