@@ -1,73 +1,67 @@
-//index.js
-//获取应用实例
+// pages/teach/teach.js
+
 var app = getApp()
+
 Page({
-  data: {
-    motto: 'Hello World',
-    userInfo: {}
+  data:{
+    showDialog: false
   },
-  //事件处理函数
-  bindViewTap: function() {
+
+  bindAddTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../add/add'
     })
   },
-  bindIntroTap: function() {
+
+  bindCancelTap: function() {
+    this.setData({
+      showDialog: !this.data.showDialog
+    });
+  },
+
+  bindOkTap: function() {
     wx.navigateTo({
-      url: '../intro/intro'
+      url: '../index/index'
     })
   },
-  bindLoginTap: function() {
+
+  bindGoStaticsTap: function() {
     wx.navigateTo({
-      url: '../login/login'
+      url: '../statics/statics'
     })
   },
+
+  bindToggleDialogSet:function() {
+    this.setData({
+      showDialog: !this.data.showDialog
+    });
+  },
+
   bindAddStudentTap: function() {
     wx.navigateTo({
       url: '../addStudent/addStudent'
     })
   },
-  bindVideoTap: function() {
+
+  bindIntroTap: function() {
     wx.navigateTo({
-      url: '../video/video'
+      url: '../intro/intro'
     })
   },
-  bindBindTap: function() {
-    wx.navigateTo({
-      url: '../bind/bind'
-    })
+
+  onLoad:function(options){
+    // 页面初始化 options为页面跳转所带来的参数
   },
-  bindTeachTap: function() {
-    wx.navigateTo({
-      url: '../teach/teach'
-    })
+  onReady:function(){
+    // 页面渲染完成
   },
-  bindStaticsTap: function() {
-    wx.navigateTo({
-      url: '../statics/statics'
-    })
+  onShow:function(){
+    // 页面显示
   },
-  onLoad: function () {
-    console.log('onLoad')
-    var that = this
-    //调用应用实例的方法获取全局数据
-    app.getUserInfo(function(userInfo){
-      //更新数据
-      that.setData({
-        userInfo:userInfo
-      })
-    })
+  onHide:function(){
+    // 页面隐藏
   },
-  onShareAppMessage: function () {
-    return {
-      title: '自定义分享标题',
-      path: '/page/user?id=123',
-      success: function(res) {
-        // 分享成功
-      },
-      fail: function(res) {
-        // 分享失败
-      }
-    }
+  onUnload:function(){
+    // 页面关闭
   }
 })

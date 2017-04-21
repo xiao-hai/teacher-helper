@@ -1,15 +1,15 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/statics/statics",
     "pages/logs/logs",
     "pages/intro/intro",
     "pages/login/login",
     "pages/bind/bind",
     "pages/invitation/invitation",
     "pages/addStudent/addStudent",
-    "pages/video/video",
-    "pages/statics/statics",
-    "pages/teach/teach"
+    "pages/video/video"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

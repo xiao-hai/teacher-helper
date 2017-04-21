@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}！</text>
+  </view>
+  <button class="zan-btn zan-btn--primary" bindtap="bindIntroTap">使用介绍</button>
+  <button class="zan-btn zan-btn--primary" bindtap="bindLoginTap">登录</button>
+  <button class="zan-btn zan-btn--primary" bindtap="bindBindTap">绑定账号</button>
+  <button class="zan-btn zan-btn--primary" bindtap="bindAddStudentTap">添加学生</button>
+  <button class="zan-btn zan-btn--primary" bindtap="bindTeachTap">teach</button>
+  <button class="zan-btn zan-btn--primary" bindtap="bindStaticsTap">statics</button>
+</view>
