@@ -7,7 +7,9 @@
     "pages/bind/bind",
     "pages/invitation/invitation",
     "pages/addStudent/addStudent",
-    "pages/video/video"
+    "pages/video/video",
+    "pages/statics/statics",
+    "pages/teach/teach"
   ],
   "window":{
     "backgroundTextStyle":"light",

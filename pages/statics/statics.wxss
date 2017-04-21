@@ -1,0 +1,9 @@
+/* pages/statics/statics.wxss */
+
+.down-fixed {
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index: 999999;
+    margin-bottom:0;
+}

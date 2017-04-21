@@ -37,6 +37,16 @@ Page({
       url: '../bind/bind'
     })
   },
+  bindTeachTap: function() {
+    wx.navigateTo({
+      url: '../teach/teach'
+    })
+  },
+  bindStaticsTap: function() {
+    wx.navigateTo({
+      url: '../statics/statics'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

@@ -1,0 +1,14 @@
+/* pages/teach/teach.wxss */
+
+.up-fixed {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999999;
+    margin-top:0;
+}
+
+.dialog-content {
+    margin: 15px 15px; 
+    text-align: center;
+}

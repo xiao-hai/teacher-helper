@@ -13,3 +13,115 @@
 .back-btn {
   width: 100%
 }
+
+
+.zan-btn--primary {
+  background-color: #1E90FF;
+  border-color: #1E90FF;
+}
+.zan-btn-block {
+  position: relative;
+  margin: 0 15px 10px 15px;
+  color: #1E90FF;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  border: 1rpx solid #F4F4F4;
+  font-size: 18px;
+  line-height: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.zan-class-block {
+  position: relative;
+  margin: 0 15px 10px 15px;
+  color: #444;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  border: 1rpx solid #F4F4F4;
+  font-size: 14px;
+  height: 80px;
+  box-sizing: border-box;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.zan-class-info {
+  margin:15px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.zan-class-info p{
+  color:#b1b1b1;
+  display: inline-block;
+  margin-right:20px;
+}
+
+.zan-class-name {
+  font-size: 1.3em;
+  color: #000;
+  font-weight: bold;
+}
+
+.zan-class-info-btn {
+  margin-right:0px;
+  margin-top:10px;
+}
+
+.zan-class-right {
+  float:right;
+}
+
+.zan-desc {
+  font-size:14px;
+  padding: 15px;
+  display: block;
+  width:65%;
+  float: left;
+}
+
+.zan-desc-btn {
+  display: block;
+  width:25%;
+  float:right;
+  padding:20px 5px 0 0;
+}
+
+.zan-card__detail {
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.zan-card__detail-row {
+  overflow: hidden;
+  line-height: 30px;
+  min-height: 30px;
+  margin:20px 0 3px 0;
+}
+.zan-card__left-col {
+  margin-top:30px;
+}
+
+.zan-card_title {
+  font-size:1.5em;
+}
+ 
+.zan-card_content {
+  color:#ccc;
+}
+
+.zan-panel-title {
+  font-size: 16px;
+  padding: 10px 15px 0 15px;
+  margin-bottom:10px;
+}
+ 

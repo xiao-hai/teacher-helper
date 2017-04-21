@@ -1,0 +1,21 @@
+<!--pages/statics/statics.wxml-->
+
+<view style="margin:20px 0; font-size:1.1em;">
+
+<text class="zan-panel-title">李老师的学生在2017-11-12的学习情况</text>
+<view class="data-container" style="background-color:red;height:900px;">
+
+</view>
+
+
+<view class="zan-panel down-fixed" bindtap="bindToggleDialogSet">
+    <view class="zan-desc">
+      创建洋葱班级带学生用，即可展现示意的数据分析报表
+    </view>
+    <view class="zan-desc-btn">
+      <button class="zan-btn--small zan-btn--primary" >去看看</button>
+    </view>
+</view>
+
+</view>
+
