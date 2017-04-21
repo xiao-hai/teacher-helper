@@ -24,6 +24,9 @@ App({
       })
     }
   },
+  bindBackBtnTap: function() {
+    console.log('bbbb');
+  },
   globalData:{
     userInfo:null
   }

@@ -22,6 +22,21 @@ Page({
       url: '../login/login'
     })
   },
+  bindAddStudentTap: function() {
+    wx.navigateTo({
+      url: '../addStudent/addStudent'
+    })
+  },
+  bindVideoTap: function() {
+    wx.navigateTo({
+      url: '../video/video'
+    })
+  },
+  bindBindTap: function() {
+    wx.navigateTo({
+      url: '../bind/bind'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
@@ -32,5 +47,17 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '自定义分享标题',
+      path: '/page/user?id=123',
+      success: function(res) {
+        // 分享成功
+      },
+      fail: function(res) {
+        // 分享失败
+      }
+    }
   }
 })

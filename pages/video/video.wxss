@@ -1,0 +1,14 @@
+.video {
+    width: 100%
+}
+.content {
+    padding: 50rpx;
+}
+.title {
+    margin-bottom: 40rpx;
+}
+.paragraph {
+    margin-bottom: 30rpx;
+    line-height: 1.5;
+    text-indent: 2rem;
+}

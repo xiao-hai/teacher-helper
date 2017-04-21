@@ -3,7 +3,11 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/intro/intro",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/bind/bind",
+    "pages/invitation/invitation",
+    "pages/addStudent/addStudent",
+    "pages/video/video"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -16,7 +20,7 @@
       "pagePath": "pages/index/index",
       "text": "教学功能"
     }, {
-      "pagePath": "pages/logs/logs",
+      "pagePath": "pages/invitation/invitation",
       "text": "邀请有奖"
     }]
   },

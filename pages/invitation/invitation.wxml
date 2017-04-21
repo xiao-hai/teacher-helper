@@ -1,0 +1,20 @@
+<view>
+    <view class="">让教师好友扫码，邀请他们加入，没邀请一个满足一下要求，双方都可以获得10元话费</view>
+    <view class="">-邀请的教师创建了班级</view>
+    <view class="">-邀请的教师班级内有5个使用过的学生</view>
+    <image style="width: 200px; height: 200px; background-color: #fff;" mode="aspectFit" src="../../images/qrcode.jpg"></image>
+    <view class="">自己的进度</view>
+    <view class="">还差2个活跃学生即可获得话费</view>
+    <view class="">已邀请教师</view>
+    <view class="zan-panel">
+        <view class="zan-cell">
+            <view class="zan-cell__bd">张老师</view>
+            <view class="zan-cell__ft">已创建班级</view>
+        </view>
+        <view class="zan-cell">
+            <view class="zan-cell__bd">李老师</view>
+            <view class="zan-cell__ft">满足条件，获得一个月会员</view>
+        </view>
+    </view>
+    <button class="zan-btn zan-btn--primary" bindtap="bindIntroTap">下载APP</button>
+</view>
