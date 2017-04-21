@@ -3,13 +3,22 @@ var app = getApp()
 
 Page({
   data:{
-    showDialog: false
+    showDialog: false,
+    addClass: false,
+    showNewClass: false,
+    inputValue: ''
+  },
+
+  bindKeyInput: function(e) {
+    this.setData({
+      inputValue: e.detail.value
+    })
   },
 
   bindAddTap: function() {
-    wx.navigateTo({
-      url: '../add/add'
-    })
+    this.setData({
+      addClass: true
+    });
   },
 
   bindCancelTap: function() {
@@ -24,6 +33,19 @@ Page({
     })
   },
 
+  bindAddCancelTap: function() {
+    this.setData({
+      addClass: false
+    });
+  },
+
+  bindAddOkTap: function() {
+    this.setData({
+      addClass: false,
+      showNewClass: true
+    });
+  },
+
   bindGoStaticsTap: function() {
     wx.navigateTo({
       url: '../statics/statics'
@@ -35,6 +57,12 @@ Page({
       showDialog: !this.data.showDialog
     });
   },
+
+  // bindToggleAddSet:function() {
+  //   this.setData({
+  //     addClass: !this.data.addClass
+  //   });
+  // },
 
   bindAddStudentTap: function() {
     wx.navigateTo({

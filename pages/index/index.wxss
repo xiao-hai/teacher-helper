@@ -13,6 +13,6 @@
     text-align: center;
 }
 
-.paddingBottom{
-    padding-bottom: 80px;
+.hidden {
+    display: none;
 }

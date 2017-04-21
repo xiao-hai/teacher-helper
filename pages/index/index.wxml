@@ -55,6 +55,19 @@
      </view>
   </view>
 
+  <view class="zan-class-block {{ showNewClass ? '' : 'hidden' }}">
+     <view class="zan-class-info">
+       <view class="zan-class-name">{{inputValue}}</view>
+       <view>
+         <p>班级编号:35YKW</p>
+         <p>0人</p>
+       </view>
+     </view>
+     <view class="zan-class-info zan-class-right">
+        <button class="zan-btn--small zan-btn--primary zan-class-info-btn" bindtap="bindAddStudentTap">邀请学生</button>
+     </view>
+  </view>
+
     <view class="zan-btns" >
       <button class="zan-btn zan-btn--primary" bindtap="bindAddTap">创建班级</button>
     </view>
@@ -98,23 +111,25 @@
     </view>
   </view>
 
-  <view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
-    <view class="zan-dialog__mask" bindtap="toggleDialogSet" />
+  <view class="zan-dialog {{ addClass ? 'zan-dialog--show' : '' }}">
+    <view class="zan-dialog__mask" bindtap="" />
     <view class="zan-dialog__container">
-      <view class="dialog-image">
-      <image style="width: 100px; height: 100px; background-color: #fff;" mode="aspectFit" src="../../images/Mascot_Happy_Side.png"></image>
-      </view>
-
-      
-      <view class="dialog-content">我们每天推送你的学生的学习总结报告到你的微信</view>
+      <view class="zan-cell zan-form__item">
+      <text class="zan-form__title">班级名称</text>
+      <input
+        class="zan-form__input"
+        placeholder="请输入班级名称"
+        bindinput="bindKeyInput"
+      />
+    </view>
 
       
 
       <view class="zan-btns" >
-      <button class="zan-btn zan-btn--cancel" bindtap="bindCancelTap">取消</button>
+      <button class="zan-btn zan-btn--cancel" bindtap="bindAddCancelTap">取消</button>
     </view>
     <view class="zan-btns" >
-      <button class="zan-btn zan-btn--primary" bindtap="bindOkTap">同意</button>
+      <button class="zan-btn zan-btn--primary" bindtap="bindAddOkTap">同意</button>
     </view>
     </view>
   </view>
