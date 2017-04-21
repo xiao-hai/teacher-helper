@@ -19,10 +19,16 @@
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "教学功能"
+      "iconPath": "images/21.png",
+      "selectedIconPath": "images/22.png",
+      "text": "教学功能",
+      "selectedColor": "#1E90FF"
     }, {
       "pagePath": "pages/invitation/invitation",
-      "text": "邀请有奖"
+      "iconPath": "images/11.png",
+      "selectedIconPath": "images/12.png",
+      "text": "邀请有奖",
+      "selectedColor": "#1E90FF"
     }]
   },
   "networkTimeout": {

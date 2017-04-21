@@ -7,12 +7,12 @@
       轻松管理教学，设置每天推送学生的学习报告
     </view>
     <view class="zan-desc-btn">
-      <button class="zan-btn--small zan-btn--primary" >推送报告</button>
+      <button class="zan-btn--small zan-btn--obvious" >点我推送</button>
     </view>
   </view>
 
 
-<view style="margin-top:90px;">
+<view style="margin-top:80px;">
 
   <view class="zan-panel-title">班级管理</view>
 
@@ -25,7 +25,7 @@
        </view>
      </view>
      <view class="zan-class-info  zan-class-right">
-        <button class="zan-btn--small zan-btn--primary zan-class-info-btn" bindtap="bindAddStudentTap">学生管理</button>
+        <button class="zan-btn--small zan-btn--primary zan-class-info-btn" bindtap="bindAddStudentTap">邀请学生</button>
      </view>
   </view>
 
@@ -38,7 +38,7 @@
        </view>
      </view>
      <view class="zan-class-info  zan-class-right">
-        <button class="zan-btn--small zan-btn--primary zan-class-info-btn" bindtap="bindAddStudentTap">学生管理</button>
+        <button class="zan-btn--small zan-btn--primary zan-class-info-btn" bindtap="bindAddStudentTap">邀请学生</button>
      </view>
   </view>
 
@@ -51,24 +51,27 @@
        </view>
      </view>
      <view class="zan-class-info zan-class-right">
-        <button class="zan-btn--small zan-btn--primary zan-class-info-btn" bindtap="bindAddStudentTap">学生管理</button>
+        <button class="zan-btn--small zan-btn--primary zan-class-info-btn" bindtap="bindAddStudentTap">邀请学生</button>
      </view>
   </view>
 
     <view class="zan-btns" >
       <button class="zan-btn zan-btn--primary" bindtap="bindAddTap">创建班级</button>
     </view>
+<view class="zan-panel-title" style="margin:auto 20px;font-size:13px;text-align:center;">创建班级带学生使用，可方便查看学生学习</view>
+</view>
 
 
+<view style="margin-top:1000px;"></view>
 
     <view class="zan-btns" >
       <button class="zan-btn zan-btn--primary" bindtap="bindGoStaticsTap">查看数据</button>
     </view>
 
+       <view class="zan-btns" >
+      <button class="zan-btn zan-btn--primary" bindtap="bindGoIntroTap">查看引导</button>
+    </view>
 
-
-<view class="zan-panel-title" style="font-size:0.7em;">创建班级带学生使用洋葱数学，可以查看学生的学习情况，方便教学</view>
-</view>
 
 
 
@@ -77,9 +80,17 @@
  <view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
     <view class="zan-dialog__mask" bindtap="toggleDialogSet" />
     <view class="zan-dialog__container">
+      <view class="dialog-image">
+      <image style="width: 100px; height: 100px; background-color: #fff;" mode="aspectFit" src="../../images/Mascot_Happy_Side.png"></image>
+      </view>
+
+      
       <view class="dialog-content">我们每天推送你的学生的学习总结报告到你的微信</view>
+
+      
+
       <view class="zan-btns" >
-      <button class="zan-btn zan-btn--primary" bindtap="bindCancelTap">取消</button>
+      <button class="zan-btn zan-btn--cancel" bindtap="bindCancelTap">取消</button>
     </view>
     <view class="zan-btns" >
       <button class="zan-btn zan-btn--primary" bindtap="bindOkTap">同意</button>

@@ -1,9 +1,12 @@
-<view class="container">
+<view class="">
     <video class="video" src="http://182.254.20.101/vhot2.qqvideo.tc.qq.com/y0157z33t9z.mp4?sdtfrom=v1010&guid=e54447fa884e72e9a29a09b0dcdcb860&vkey=8EC31751785F4D146FF407BC206F6A4A5FF04499853DAB143CE8412BA2398D278AD672B7A48E7EC65F3DE434074ABD2FCA6395A8A030B5D60330FA07AEDF25622776002E98628F1D12744DA0DA50CF57DD30346E89B075CC1A03ECA04B02A6F458E8EC75F63F61727A836F681CD560D6" controls></video>
     <view class="content">
         <view class="zan-font-20 zan-font-bold title">平面直角坐标系</view>
         <view class="zan-font-16 zan-c-gray-darker paragraph">洋葱数学提供全网顶尖质量的趣味动画微课，覆盖初中三年所有基础知识点，让学生轻松学会。</view>
         <view class="zan-font-16 zan-c-gray-darker paragraph">微课采用动画的形式讲解，把抽象的数学概念可视化，帮助打通学生关键认知环节；同时用贴近学生的语言和故事讲概念，让学生在兴趣盎然中学懂数学。</view>
     </view>
+    <view class="zan-btns">
     <button class="zan-btn zan-btn--primary" bindtap="bindBackBtnTap">返回</button>
+    </view>
+    
 </view>

@@ -1,7 +1,7 @@
 <view class="">
-    <view class="">添加学生的办法</view>
-    <view class="">
-        邀请学生在洋葱数学APP内“设置”->“我的班级”中输入班级编号即可加入
+    <image style="width:100%;background-color: #fff;"  mode="widthFix" src="../../images/invite.png"></image>
+
+     <view class="zan-btns" >
+      <button class="zan-btn zan-btn--primary" bindtap="bindGoStaticsTap">通知学生加入</button>
     </view>
-    <button class="zan-btn zan-btn--primary" bindtap="bindIntroTap">班级编号：ABCD</button>
 </view>
