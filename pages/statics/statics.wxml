@@ -1,12 +1,8 @@
 <!--pages/statics/statics.wxml-->
-
-<view style="margin:20px 0; font-size:1.1em;">
-
-<text class="zan-panel-title data-title">李老师的学生在2017-11-12的学习情况</text>
-<view class="data-container" style="background-color:red;height:900px;">
+<view class="paddingBottom">
+  <image style="width:100%;background-color: #fff;"  mode="widthFix" src="../../images/data.png"></image>
 
 </view>
-
 
 <view class="zan-panel down-fixed" bindtap="bindToggleDialogSet">
     <view class="zan-desc">
@@ -15,7 +11,5 @@
     <view class="zan-desc-btn">
       <button class="zan-btn--small zan-btn--primary" style="margin-right:15px;" >去看看</button>
     </view>
-</view>
-
 </view>
 

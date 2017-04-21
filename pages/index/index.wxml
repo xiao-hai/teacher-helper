@@ -98,6 +98,27 @@
     </view>
   </view>
 
+  <view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+    <view class="zan-dialog__mask" bindtap="toggleDialogSet" />
+    <view class="zan-dialog__container">
+      <view class="dialog-image">
+      <image style="width: 100px; height: 100px; background-color: #fff;" mode="aspectFit" src="../../images/Mascot_Happy_Side.png"></image>
+      </view>
+
+      
+      <view class="dialog-content">我们每天推送你的学生的学习总结报告到你的微信</view>
+
+      
+
+      <view class="zan-btns" >
+      <button class="zan-btn zan-btn--cancel" bindtap="bindCancelTap">取消</button>
+    </view>
+    <view class="zan-btns" >
+      <button class="zan-btn zan-btn--primary" bindtap="bindOkTap">同意</button>
+    </view>
+    </view>
+  </view>
+
 
 
 

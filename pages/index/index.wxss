@@ -12,3 +12,7 @@
     margin: 15px 15px; 
     text-align: center;
 }
+
+.paddingBottom{
+    padding-bottom: 80px;
+}
