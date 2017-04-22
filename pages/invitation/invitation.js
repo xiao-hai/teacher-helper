@@ -20,7 +20,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '邀请你成为洋葱数学教师',
-      path: '/pages/invitation/invitation',
+      path: '/pages/intro/intro',
       success: function(res) {
         // 分享成功
       },

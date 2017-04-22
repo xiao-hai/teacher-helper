@@ -67,7 +67,7 @@ page {
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 2px;
-  border: 1rpx solid #f0f0f0;
+  border: 1rpx solid #ccc;
   font-size: 14px;
   height: 80px;
   box-sizing: border-box;
