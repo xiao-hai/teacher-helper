@@ -1,4 +1,4 @@
-<view>
+<view style="padding-bottom:20px">
 
 <view class="push-code-container">
     <view class="main-content">让教师好友扫码，邀请他们加入，每邀请一个满足一下要求，双方都可以获得10元话费</view>
@@ -26,7 +26,7 @@
         </view>
     </view>
 
-    <view class="zan-btns" style="margin-top:30px;margin-bottom:30px;">
+    <view class="zan-btns" style="margin-top:30px;">
     <button class="zan-btn zan-btn--primary" bindtap="bindShareTap">分享给教师朋友</button>
     </view>
 </view>

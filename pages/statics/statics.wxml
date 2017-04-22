@@ -1,15 +1,17 @@
 <!--pages/statics/statics.wxml-->
-<view class="paddingBottom">
-  <image style="width:100%;background-color: #fff;"  mode="widthFix" src="../../images/data.png"></image>
+<view class="">
+  <view class="paddingBottom">
+    <image style="width:100%;background-color: #fff;"  mode="widthFix" src="../../images/data.png"></image>
 
-</view>
+  </view>
 
-<view class="zan-panel down-fixed" bindtap="bindToggleDialogSet">
-    <view class="zan-desc">
-      创建洋葱班级带学生用，即可展现示意的数据分析报表
-    </view>
-    <view class="zan-desc-btn">
-      <button class="zan-btn--small zan-btn--primary" style="margin-right:15px;" >去看看</button>
-    </view>
+  <view class="zan-panel down-fixed" style="height: 70px" bindtap="bindIndexTap">
+      <view class="zan-desc">
+        创建洋葱班级带学生用，即可展现示意的数据分析报表
+      </view>
+      <view class="zan-desc-btn">
+        <button class="zan-btn--small zan-btn--primary" style="margin-right:15px;" >去看看</button>
+      </view>
+  </view>
 </view>
 

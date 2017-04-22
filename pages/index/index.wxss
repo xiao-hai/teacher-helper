@@ -9,10 +9,14 @@
 }
 
 .dialog-content {
-    margin: 15px 15px; 
+    margin: 15px auto; 
     text-align: center;
 }
 
 .hidden {
     display: none;
+}
+
+.addClassForm::after{
+    border-bottom: 0 none;
 }

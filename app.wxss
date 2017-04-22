@@ -114,13 +114,13 @@ page {
   width:65%;
   float: left;
   color:#888;
+  line-height:1.5
 }
 
 .zan-desc-btn {
-  display: block;
   width:25%;
   float:right;
-  padding:12px 5px 0 0;
+  padding:20px 5px 0 0;
   text-align: right;
 }
 
@@ -133,7 +133,7 @@ page {
   overflow: hidden;
  /* line-height: 30px;*/
   min-height: 30px;
-  margin:20px 0 3px 0;
+  margin:10px 0 3px 0;
 }
 .zan-card__left-col {
   margin-top:30px;
@@ -226,7 +226,7 @@ page {
   background-color: #1E90FF;
   padding-bottom:10px;
   margin-bottom: 20px;
-  background-image: url('../../images/color-bg.png');
+  background-image: url('http://7sbkoa.com2.z0.glb.qiniucdn.com/color-bg.png');
   background-size:100% auto;  
 }
 

@@ -9,5 +9,9 @@
 }
 
 .paddingBottom{
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+}
+
+.btnBox {
+    padding: 0 15px 15px 15px;
 }

@@ -12,13 +12,15 @@
       <view class="zan-card__detail zan-card__side">
         <view class="zan-card__detail-row">
           <view class="zan-card__left-col zan-ellipsis--l2 zan-card_title">
-             第一步：观看洋葱数学样例视频
+             趣味动画微课，学生轻松学会
           </view>
         </view> 
         <view class="zan-card__detail-row zan-c-gray-darker zan-card_content">
             我们提供大量这样优质的教学视频资源
         </view>
-        
+        <view class="to-page">
+          体验样例视频 >>
+        </view>
       </view>
     </view>
   </view>
@@ -29,16 +31,19 @@
       <view class="zan-card__detail zan-card__side">
         <view class="zan-card__detail-row">
           <view class="zan-card__left-col zan-ellipsis--l2 zan-card_title">
-             第二步：查看样例数据报告
+             学习数据分析，检查作业更省心
           </view>
         </view>
         <view class="zan-card__detail-row zan-c-gray-darker zan-card_content">
              建立班级带学生使用，即可每天查看学习报告
         </view>
+        <view class="to-page">
+          查看班级学习报告 >>
+        </view>
       </view>
 
 
-      <image style="float:left;width:40%; margin-top:50px;background-color: #fff;display:block;" mode="widthFix" src="../../images/nv.png"></image>
+      <image style="float:right;width:40%; margin-top:50px;background-color: #fff;display:block;" mode="widthFix" src="../../images/nv.png"></image>
 
 
     </view>
