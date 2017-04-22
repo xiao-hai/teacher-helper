@@ -1,7 +1,7 @@
 <view>
 
 <view class="push-code-container">
-    <view class="main-content">让教师好友扫码，邀请他们加入，没邀请一个满足一下要求，双方都可以获得10元话费</view>
+    <view class="main-content">让教师好友扫码，邀请他们加入，每邀请一个满足一下要求，双方都可以获得10元话费</view>
     <view class="main-content step-content">○  邀请的教师创建了班级</view>
     <view class="main-content step-content">○  邀请的教师班级内有5个使用过的学生</view>
     <image style="display:block;width: 200px; height: 200px; margin:auto; text-align:center;background-color: #fff;margin:30px auto;" mode="aspectFit" src="../../images/qrcode.jpg"></image>
@@ -27,6 +27,6 @@
     </view>
 
     <view class="zan-btns" style="margin-top:30px;margin-bottom:30px;">
-    <button class="zan-btn zan-btn--primary" bindtap="bindIntroTap">分享给教师朋友</button>
+    <button class="zan-btn zan-btn--primary" bindtap="bindShareTap">分享给教师朋友</button>
     </view>
 </view>

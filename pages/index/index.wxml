@@ -2,7 +2,7 @@
 
 <view class="none">
 
-  <view class="zan-panel up-fixed" bindtap="bindToggleDialogSet">
+  <view class="zan-panel up-fixed {{showTips ? '' : 'hidden'}}" bindtap="bindToggleDialogSet">
     <view class="zan-desc">
       轻松管理教学，设置每天推送学生的学习报告
     </view>
@@ -12,7 +12,7 @@
   </view>
 
 
-<view style="margin-top:80px;">
+<view style=" {{showTips ? 'margin-top:80px' : ''}}">
 
   <view class="zan-panel-title">班级管理</view>
 
@@ -91,7 +91,7 @@
 
 
  <view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
-    <view class="zan-dialog__mask" bindtap="toggleDialogSet" />
+    <view class="zan-dialog__mask" bindtap="bindMaskTap" />
     <view class="zan-dialog__container">
       <view class="dialog-image">
       <image style="width: 100px; height: 100px; background-color: #fff;" mode="aspectFit" src="../../images/Mascot_Happy_Side.png"></image>
@@ -112,13 +112,13 @@
   </view>
 
   <view class="zan-dialog {{ addClass ? 'zan-dialog--show' : '' }}">
-    <view class="zan-dialog__mask" bindtap="" />
+    <view class="zan-dialog__mask" bindtap="bindMaskTap" />
     <view class="zan-dialog__container">
       <view class="zan-cell zan-form__item">
       <text class="zan-form__title">班级名称</text>
       <input
         class="zan-form__input"
-        placeholder="请输入班级名称"
+        placeholder="新班级"
         bindinput="bindKeyInput"
       />
     </view>

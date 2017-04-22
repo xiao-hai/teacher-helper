@@ -9,5 +9,24 @@ Page({
       {name: 'ENG', value: '英国'},
       {name: 'TUR', value: '法国'},
     ]
+  },
+  bindShareTap: function() {
+    wx.showShareMenu({
+      success: function() {
+
+      }
+    })
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '邀请你成为洋葱数学教师',
+      path: '/pages/invitation/invitation',
+      success: function(res) {
+        // 分享成功
+      },
+      fail: function(res) {
+        // 分享失败
+      }
+    }
   }
 })

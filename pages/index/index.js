@@ -6,7 +6,8 @@ Page({
     showDialog: false,
     addClass: false,
     showNewClass: false,
-    inputValue: ''
+    showTips: false,
+    inputValue: '新班级'
   },
 
   bindKeyInput: function(e) {
@@ -28,8 +29,18 @@ Page({
   },
 
   bindOkTap: function() {
-    wx.navigateTo({
-      url: '../index/index'
+    this.setData({
+      showDialog: !this.data.showDialog,
+      showTips: false
+    });
+    wx.setStorage({
+      key: "showTips",
+      data: false
+    });
+    wx.showToast({
+      title: '设置成功',
+      icon: 'success',
+      duration: 2000
     })
   },
 
@@ -58,11 +69,12 @@ Page({
     });
   },
 
-  // bindToggleAddSet:function() {
-  //   this.setData({
-  //     addClass: !this.data.addClass
-  //   });
-  // },
+  bindMaskTap: function() {
+    this.setData({
+      showDialog: false,
+      addClass: false
+    });
+  },
 
   bindAddStudentTap: function() {
     wx.navigateTo({
@@ -78,13 +90,31 @@ Page({
 
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
+    var that = this;
     common.authCheck();
+    wx.getStorage({
+        key: 'showTips',
+        success: function(res) {
+          if (res.data) {
+            that.setData({
+              showTips: true
+            });
+          }
+          
+        },
+        fail: function () {
+            that.setData({
+              showTips: true
+            });
+        }
+    })
   },
   onReady:function(){
     // 页面渲染完成
   },
   onShow:function(){
     // 页面显示
+    common.authCheck();
   },
   onHide:function(){
     // 页面隐藏
@@ -94,7 +124,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: '自定义分享标题',
+      title: '洋葱数学教师助手',
       path: '/pages/intro/intro',
       success: function(res) {
         // 分享成功
