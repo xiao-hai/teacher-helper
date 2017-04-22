@@ -18,5 +18,5 @@
 }
 
 .addClassForm::after{
-    border-bottom: 0 none;
+    border-top: 0 none;
 }

@@ -1,7 +1,8 @@
 <view style="padding-bottom:20px">
 
 <view class="push-code-container">
-    <view class="main-content">让教师好友扫码，邀请他们加入，每邀请一个满足一下要求，双方都可以获得10元话费</view>
+    <view class="main-content" style="font-size: 30px; text-align: center; padding-top:50px">邀请老师 有好礼</view>
+    <view class="main-content" style="font-weight:bold; line-height:1.2; padding-top:10px">让教师好友扫码，邀请他们加入，满足以下要求双方均可获得10元话费</view>
     <view class="main-content step-content">○  邀请的教师创建了班级</view>
     <view class="main-content step-content">○  邀请的教师班级内有5个使用过的学生</view>
     <image style="display:block;width: 200px; height: 200px; margin:auto; text-align:center;background-color: #fff;margin:30px auto;" mode="aspectFit" src="../../images/qrcode.jpg"></image>
@@ -22,11 +23,11 @@
         </view>
         <view class="zan-cell">
             <view class="zan-cell__bd">李老师</view>
-            <view class="zan-cell__ft">满足条件，获得一个月会员</view>
+            <view class="zan-cell__ft">满足条件，双方得话费10元</view>
         </view>
     </view>
 
     <view class="zan-btns" style="margin-top:30px;">
-    <button class="zan-btn zan-btn--primary" bindtap="bindShareTap">分享给教师朋友</button>
+    <button class="zan-btn zan-btn--primary" bindtap="bindShareTap">下载洋葱数学APP</button>
     </view>
 </view>
