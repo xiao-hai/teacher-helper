@@ -1,22 +1,21 @@
-<view class="container">
+<view class="">
   <view class="doc-title">绑定洋葱数学教师账号</view>
   <view class="zan-form">
-    <view class="zan-cell zan-form__item">
-      <text class="zan-form__title">教师账号</text>
       <input
         class="zan-form__input zan-cell__bd"
-        placeholder=""
+        placeholder="输入你已有的洋葱账号"
       />
-    </view>
-    <view class="zan-cell zan-form__item">
-      <text class="zan-form__title">密码</text>
+
       <input
         class="zan-form__input zan-cell__bd"
-        type="number"
-        maxlength="20"
-        placeholder=""
+        placeholder="密码" type="password"
       />
-    </view>
+
+
+    
+    
   </view>
+  <view class="zan-btns">
   <button class="zan-btn zan-btn--primary" bindtap="bindBindTap">确定</button>
+  </view>
 </view>

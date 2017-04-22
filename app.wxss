@@ -10,7 +10,7 @@
 @import "zanui/index.wxss";
 
 page {
-  font-family: pictos; 
+  font-family: 'SimHei'; 
 }
 
 .container {
@@ -30,6 +30,7 @@ page {
   background-color: #1E90FF;
   border-color: #1E90FF;
   border-radius:5px;
+  margin-bottom:20px;
 }
 
 .zan-btn--obvious {
@@ -42,11 +43,11 @@ page {
 .zan-btn-block {
   position: relative;
   margin: 0 15px 10px 15px;
-  color: #1E90FF;
+  color: #888;
   background-color: #fff;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 2px;
+  border-radius: 5px;
   border: 1rpx solid #f0f0f0;
   font-size: 18px;
   line-height: 60px;
@@ -55,6 +56,7 @@ page {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
+  clear:both;
 }
 
 .zan-class-block {
@@ -70,6 +72,7 @@ page {
   height: 80px;
   box-sizing: border-box;
   text-decoration: none;
+    clear:both;
   vertical-align: middle;
 }
 
@@ -96,6 +99,8 @@ page {
 .zan-class-info-btn {
   margin-right:0px;
   margin-top:10px;
+  font-size:1.1em;
+  padding:5px auto;
 }
 
 .zan-class-right {
@@ -200,11 +205,12 @@ page {
 .status-content {
   float: left;
   width:60%;
-  font-size:14px;
-  color:#888;
+  font-size:16px;
+  color:brown;
   text-align: right;
   margin-top: 12px;
   margin-right:5px;
+  line-height:1.1em;
 }
 
 .zan-cell__ft {
@@ -220,6 +226,8 @@ page {
   background-color: #1E90FF;
   padding-bottom:10px;
   margin-bottom: 20px;
+  background-image: url('../../images/color-bg.png');
+  background-size:100% auto;  
 }
 
 .zan-card__side {
@@ -231,3 +239,30 @@ page {
 .zan-panel {
   margin-top:0;
 }
+
+
+.doc-title {
+  margin:50px auto;
+  color:#1E90FF;
+  text-align: center;
+  font-size:1.1em;
+}
+
+.zan-form {
+  border:0;
+  margin: auto 15px;
+}
+
+.zan-form__input {
+  height:40px;
+  line-height:40px;
+  border:1px solid #b1b1b1;
+  font-size:16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:20px auto;
+  color:#888;
+  border-radius: 5px;
+}
+
+
